@@ -1,0 +1,61 @@
+body {
+    background-image: url("/Word-Guess-Game/images/bg.jpg");
+    background-repeat: repeat;
+    font-family: futura, franklin, sans-serif;
+    color: white;
+}
+
+    container {
+        align-self: center;
+    }
+
+    div {
+        /* border: 1px solid white; */
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 140px;
+        font-family: 'Yellowtail', cursive;
+    }
+
+    strong {
+        text-transform: uppercase;
+        letter-spacing: .6em;
+        color: brown;
+    }
+
+    #inst {
+padding-top: 6px;
+padding-bottom: 5px;
+border-bottom: 3px solid white;
+border-top: 3px solid white;
+    }
+
+    #content {
+        padding: 20px;
+        border: 1px solid white;
+    }
+
+    #wins {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border: 1px solid white;
+        text-align: center;
+        width: 100%;
+    }
+
+    #title {
+        font-size: 30px;
+        color: brown;
+        text-align: center;
+        text-transform: uppercase
+        width: 100%;
+        background: white;
+        padding: 0;
+    }
+
+    #winCount {
+        font-size: 80px;
+        padding: 0;
+    }
