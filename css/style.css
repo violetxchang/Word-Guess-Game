@@ -5,18 +5,21 @@ body {
     color: white;
 }
 
-    container {
+    .container {
         align-self: center;
     }
 
     div {
         /* border: 1px solid white; */
-        margin: 15px;
+        padding: 20px;
     }
 
     h1 {
-        font-size: 140px;
-        font-family: 'Yellowtail', cursive;
+        font-size: 120px;
+        line-height: 150px;
+        margin-bottom: 50px;
+        margin-top:30px;
+        text-align: center;
     }
 
     strong {
@@ -30,16 +33,17 @@ padding-top: 6px;
 padding-bottom: 5px;
 border-bottom: 3px solid white;
 border-top: 3px solid white;
+margin-bottom: 20px;
     }
 
     #content {
         padding: 20px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 
     #wins {
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        margin-bottom: 120px;
+        padding: 0;
         border: 1px solid white;
         text-align: center;
         width: 100%;
@@ -49,13 +53,44 @@ border-top: 3px solid white;
         font-size: 30px;
         color: brown;
         text-align: center;
-        text-transform: uppercase
+        text-transform: uppercase;
         width: 100%;
         background: white;
-        padding: 0;
     }
 
     #winCount {
         font-size: 80px;
         padding: 0;
+    }
+
+    #coffee {
+        color: brown;
+        font-family: 'Yellowtail', cursive;
+        font-size: 210px;
+    }
+
+    .row {
+        width: 100%;
+        align-content: center;
+        padding: 0;
+    }
+
+    #currentWord {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    #content {
+        font-size: 21px;
+        border: 0;
+        padding-bottom: 0;
+    }
+
+    #wrongGuesses {
+        margin-top: -10px;
+        padding-left: 30px;
+    }
+
+    #guessesRemaining {
+        margin-top: -10px;
     }

@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
-            @import url('https://fonts.googleapis.com/css?family=Meddon|Yellowtail');
-            </style>
+        @import url('https://fonts.googleapis.com/css?family=Meddon|Yellowtail');
+    </style>
 </head>
 
 <body>
@@ -22,44 +22,41 @@
 
     <div class="container">
         <div class="row">
-                <h1>But First, Coffee</h1>
+            <h1>But First,</h1>
+            <h1 id="coffee">Coffee</h1>
         </div>
 
         <div class="row" id="inst">
-<strong>Instructions</strong> 
-Guess types of coffee by suggesting letters. You're allowed _ guesses. Press any key to get started!
-                </div>
-        
-<div class="row">
-        <div class="col-lg-8" id="content">
-                    Current Word
+            <strong>Instructions</strong>
+            Guess types of coffee by suggesting letters. You're allowed 12 guesses. Press any key to get started!
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8" id="content">
+                Current Word
+                <div class="col-lg-10" id="currentWord"></div>
+                <div class="row">
+                    <div class="col-lg-6" id="content">Letters Already Guessed</div>
+                    <div class="col-lg-6" id="content">Number of Guesses Remaining</div>
                     <div class="row">
-<div class="col-lg-8">Letters Already Guessed</div>
-                        <div class="col-lg-2">Number of Guesses Remaining</div>
-                        </div>
+                            <div id="wrongGuesses" class="col-lg-9"></div>
+                    <div id="guessesRemaining" class="col-lg-3"></div>
+                    </div>
                 </div>
-    
-                <div class="col-lg-3" id="wins">
+            </div> 
+
+            <div class="col-lg-4" id="wins">
                 <div id="title">Wins</div>
                 <div id="winCount">0</div>
-                </div>
-                </div>
+            </div>
+        </div>
 
 
 
     </div>
+    <script src="javascript/game.js"></script>
 
-    <script type="text/javascript">
 
-    //Array
-    var coffees = ["CAPPUCCINO", "ESPRESSO", "MACCHIATO", "AMERICANO"]
-    
-//Get random index of coffees array
-var computerRandIndex = math.floor(math.random() * coffees.length);
-
-    </script>
-
-        
 
 
     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
